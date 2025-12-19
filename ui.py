@@ -14,7 +14,7 @@ st.title("LangGraph Chatbot Agent")
 st.write("Interact with the LangGraph-based agent using this interface.")
 
 # Input box for system prompt
-given_system_prompt = st.text_area("Define you AI Agent:", height=70, placeholder="Type your system prompt here...")
+given_system_prompt = st.text_area("Define you AI Agent:", height=70, placeholder="You are a helpful assistant with access to a Google Search tool via Tavily. You MUST use the search tool to find the latest information. Do NOT answer from your own memory if the question is about current events or real-time data. Always search first, then answer.")
 
 # Predefined models
 MODEL_NAMES = [
