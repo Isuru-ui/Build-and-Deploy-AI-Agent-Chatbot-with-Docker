@@ -15,7 +15,7 @@ os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY", 'tvly-omfTZDYFru7ehCn
 
 # Predefined list of supported model names
 MODEL_NAMES = [
-    "llama-3.3-70b-versatile",  # අලුත් Model එක
+    "llama-3.3-70b-versatile", 
     "mixtral-8x7b-32768"
 ]
 
