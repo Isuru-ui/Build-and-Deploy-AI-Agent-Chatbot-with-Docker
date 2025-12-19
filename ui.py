@@ -18,7 +18,7 @@ given_system_prompt = st.text_area("Define you AI Agent:", height=70, placeholde
 
 # Predefined models
 MODEL_NAMES = [
-    "llama-3.3-70b-versatile",  # අලුත් Model එක
+    "llama-3.3-70b-versatile",  
     "mixtral-8x7b-32768"
 ]
 # Dropdown for selecting the model
